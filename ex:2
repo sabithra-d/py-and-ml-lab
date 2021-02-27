@@ -1,0 +1,31 @@
+#addition using format() method
+a=1.5
+b=6.3
+c=a+b
+print("The sum of {0} and {1} is {2}".format(a,b,c))
+
+
+#using input()  fuction
+a=input()
+b=input()
+c=float(a)+float(b)
+print("The sum of {0} and {1} is {2}".format(a,b,c))
+
+#addition without using + operator
+def add(a,b)
+    arr = []
+    while b!=0:
+        data = a&b
+        a = a^b
+
+        b=data<<1
+        arr.append(data)
+        a.append(a)
+        a.append(b)
+    for i in arr:
+        print(i)
+
+if __name__ == "__main__":
+
+    add(5,3)
+
