@@ -1,0 +1,16 @@
+#find area of triangle using herons formula
+a=float(input())
+b=float(input())
+c=float(input())
+s=(a+b+c)/2
+area=(s*(s-a)*(s-b)*(s-c))**0.5
+print("The area of the triangle is %0.2f"%area)
+
+
+#find roots of quadratic equation.o/p should be in complex number
+a=int(input())
+b=int(input())
+c=int(input())
+res1=(-b+((b*b)-4*a*c)**0.5)/(2*a)
+res2=(-b-((b*b)-4*a*c)**0.5)/(2*a)
+print("The roots of the quadratic equation is {} and {}".format(res1,res2)
