@@ -1,0 +1,18 @@
+#swapping using random temp variable
+
+x=input("")
+y=input("")
+
+temp=x
+x=y
+y=temp
+print("The value of x after swapping: {}".format(x))
+print("The value of y after swapping: {}".format(y))
+
+
+
+#swapping without using temporary variable
+x=input("")
+y=input("")
+x, y = y, x
+print("After swapping: x =", x, " y =", y)
