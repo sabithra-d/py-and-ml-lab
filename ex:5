@@ -1,0 +1,69 @@
+#leap year using if else
+
+year=int(input("Enter a year:"))
+if(year % 4 == 0):
+    if(year % 100 == 0):
+        if(year % 400 == 0):
+            print("{0} is a leap year".format(year))
+        else:
+            print("{0} is not a leap year".format(year))
+    else:
+        print("{0} is a leap year".format(year))
+else:
+    print("{0} is not a leap year".format(year))
+
+#odd or even using if else 
+
+num=int(input("Enter a number:"))
+if num % 2 == 0:
+    print("{0} is Even".format(num))
+else:
+    print("{0} is odd".format(num))
+
+
+#num is positive or negative or zero using if elif
+
+num=int(input("Enter the number:"))
+if num > 0:
+    print("Number is Positive")
+elif num == 0:
+    print("Zero")
+else:
+    print("Number is Negative")
+    
+    
+#lar num using if else elif
+
+a=int(input("Enter a num1:"))
+b=int(input("Enter a num2:"))
+c=int(input("Enter a num3:"))
+if a>=b and a>=c:
+    largest=a
+elif b>=a and b>=c:
+    largest=b
+else:
+    largest=c
+print("The largest number is",largest)
+
+
+
+
+# num is pos or negative or zero using nested if
+
+num = int(input("Enter a number:"))
+if num >= 0:
+    if num == 0:
+            print("Number is Zero")
+    else:
+            print("Number is Positive")
+else:
+    print("Number is Negative")
+
+
+
+
+
+
+
+
+    
